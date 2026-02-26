@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (regenerated)
+data/portfolio_prices.csv
+data/news_sentiment.csv
+
+# Results (regenerated)
+results/*.png
+results/*.csv
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
